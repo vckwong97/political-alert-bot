@@ -7,6 +7,7 @@ This MVP is designed to run on GitHub Actions while your computer is off. It sto
 ## What It Does Now
 
 - Monitors government/public-policy RSS feeds.
+- Monitors live House/Senate disclosure mirrors for new politician buy/sell records.
 - Provides a trade-history storage layer for politician buy/sell disclosures.
 - Formats politician trade alerts with person, action, ticker, amount, trade date, disclosure date, and historical context.
 - Matches announcements to sectors and tickers using `config/ticker_keywords.yaml`.
@@ -16,7 +17,7 @@ This MVP is designed to run on GitHub Actions while your computer is off. It sto
 
 ## What It Does Not Do Yet
 
-- It does not scrape House/Senate stock trade PDFs yet. The storage and message format are ready for that parser.
+- It does not ingest directly from official House/Senate filing systems yet; it currently uses public watcher mirrors.
 - It does not place trades.
 - It does not claim politician trades are real-time. Public trade disclosures are often delayed.
 
@@ -65,10 +66,10 @@ Run with Telegram secrets exported:
 ```bash
 export TELEGRAM_BOT_TOKEN="123456:ABC..."
 export TELEGRAM_CHAT_ID="123456789"
-.venv/bin/python -m political_alert_bot --max-per-source 5
+.venv/bin/python -m political_alert_bot --max-per-source 5 --max-trade-alerts 10
 ```
 
-By default, the bot only considers feed items published in the last 72 hours and sends at most 10 alerts per run. You can tune this with `--lookback-hours` and `--max-alerts`.
+By default, the bot only considers news items from the last 72 hours and trade disclosures from the last 96 hours. You can tune this with `--lookback-hours`, `--trade-lookback-hours`, `--max-alerts`, and `--max-trade-alerts`.
 
 ## Backfill Two Years Of Trades
 
