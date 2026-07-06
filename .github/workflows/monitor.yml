@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
+    inputs:
+      send_test_message:
+        description: "Send a Telegram test message instead of running the monitor"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 permissions:
   contents: write
@@ -28,7 +37,12 @@ jobs:
           python -m pip install -e .
 
       - name: Run alert monitor
-        run: python -m political_alert_bot --max-per-source 8 --max-alerts 10 --min-score 45 --lookback-hours 72
+        run: |
+          if [[ "${{ github.event.inputs.send_test_message }}" == "true" ]]; then
+            python -m political_alert_bot.telegram_test
+          else
+            python -m political_alert_bot --max-per-source 8 --max-alerts 10 --min-score 45 --lookback-hours 72
+          fi
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

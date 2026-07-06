@@ -138,6 +138,14 @@ Add these repository secrets:
 
 The workflow in `.github/workflows/monitor.yml` runs every 30 minutes and can also be started manually from GitHub's Actions tab. After each run, it commits changes to `data/seen_alerts.json` and `data/trade_history.json`, so the next run starts with the latest known alert/trade state.
 
+To test Telegram delivery from GitHub Actions:
+
+```bash
+gh workflow run monitor.yml -f send_test_message=true
+```
+
+This sends a one-off "TRADING SIGNAL BOT TEST" message without changing alert state.
+
 ## Configuration
 
 - `config/sources.yaml`: RSS feeds to monitor.

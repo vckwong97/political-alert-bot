@@ -23,13 +23,17 @@ def load_telegram_config() -> TelegramConfig | None:
 
 
 def send_alert(config: TelegramConfig, alert: Alert) -> None:
+    send_text(config, format_alert(alert), disable_web_page_preview=False)
+
+
+def send_text(config: TelegramConfig, text: str, disable_web_page_preview: bool = True) -> None:
     url = f"https://api.telegram.org/bot{config.bot_token}/sendMessage"
     response = requests.post(
         url,
         json={
             "chat_id": config.chat_id,
-            "text": format_alert(alert),
-            "disable_web_page_preview": False,
+            "text": text,
+            "disable_web_page_preview": disable_web_page_preview,
         },
         timeout=20,
     )
