@@ -70,6 +70,42 @@ export TELEGRAM_CHAT_ID="123456789"
 
 By default, the bot only considers feed items published in the last 72 hours and sends at most 10 alerts per run. You can tune this with `--lookback-hours` and `--max-alerts`.
 
+## Backfill Two Years Of Trades
+
+For useful "who else appears to hold this stock" comments, seed the trade history before relying on live alerts.
+
+Put a CSV or JSON export in `data/imports/`, then run:
+
+```bash
+.venv/bin/python -m political_alert_bot.backfill_trades --input data/imports/trades.csv --years 2 --default-office House
+```
+
+Dry-run first:
+
+```bash
+.venv/bin/python -m political_alert_bot.backfill_trades --input data/imports/trades.csv --years 2 --dry-run
+```
+
+The importer accepts common columns such as:
+
+```text
+person/name/representative/senator/member
+action/type/transaction_type
+ticker/asset_ticker/symbol
+company/asset_description/issuer
+amount/amount_range/value
+trade_date/transaction_date/date
+disclosure_date/filing_date/filed_date
+source_url/url/link/filing_url
+party/state/office
+```
+
+It writes normalized records into `data/trade_history.json`. The live alert formatter can then add historical context like:
+
+```text
+Historical context: Alice Member and Bob Senator also bought NVDA and appear to still be holding based on latest stored disclosures.
+```
+
 ## Telegram Setup
 
 1. In Telegram, message `@BotFather`.
