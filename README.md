@@ -74,6 +74,15 @@ By default, the bot only considers feed items published in the last 72 hours and
 
 For useful "who else appears to hold this stock" comments, seed the trade history before relying on live alerts.
 
+Current seeded baseline:
+
+```text
+House trades stored: 4,266
+Senate trades stored: 0
+```
+
+The House baseline was imported from a public House stock watcher mirror. The public Senate mirror checked during setup only covered older transactions through 2019, so it did not seed the current 2-year window.
+
 Put a CSV or JSON export in `data/imports/`, then run:
 
 ```bash
