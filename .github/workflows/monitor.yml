@@ -33,14 +33,14 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
-      - name: Commit updated alert state
+      - name: Commit updated bot data
         run: |
-          if git diff --quiet data/seen_alerts.json; then
-            echo "No state changes to commit."
+          if git diff --quiet -- data/seen_alerts.json data/trade_history.json; then
+            echo "No bot data changes to commit."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/seen_alerts.json
-            git commit -m "Update alert state"
+            git add data/seen_alerts.json data/trade_history.json
+            git commit -m "Update bot data state"
             git push
           fi

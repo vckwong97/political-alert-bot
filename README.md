@@ -127,7 +127,7 @@ Add these repository secrets:
 - `TELEGRAM_BOT_TOKEN`
 - `TELEGRAM_CHAT_ID`
 
-The workflow in `.github/workflows/monitor.yml` runs every 30 minutes and can also be started manually from GitHub's Actions tab.
+The workflow in `.github/workflows/monitor.yml` runs every 30 minutes and can also be started manually from GitHub's Actions tab. After each run, it commits changes to `data/seen_alerts.json` and `data/trade_history.json`, so the next run starts with the latest known alert/trade state.
 
 ## Configuration
 
