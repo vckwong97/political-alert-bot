@@ -1,0 +1,90 @@
+sectors:
+  semiconductors:
+    tickers: [NVDA, AMD, TSM, ASML, INTC, SOXX]
+    keywords:
+      - semiconductor
+      - semiconductors
+      - chip
+      - chips
+      - ai chip
+      - export control
+      - advanced computing
+      - foundry
+
+  defense:
+    tickers: [LMT, RTX, NOC, GD, ITA]
+    keywords:
+      - defense
+      - missile
+      - military aid
+      - weapons
+      - aerospace
+      - navy
+      - army
+      - air force
+
+  energy:
+    tickers: [XOM, CVX, OXY, XLE, USO]
+    keywords:
+      - oil
+      - gas
+      - energy
+      - drilling
+      - pipeline
+      - crude
+      - lng
+      - refinery
+
+  clean_energy:
+    tickers: [TSLA, ENPH, FSLR, TAN, ICLN]
+    keywords:
+      - solar
+      - battery
+      - electric vehicle
+      - ev
+      - clean energy
+      - renewable
+      - charging
+
+  crypto:
+    tickers: [COIN, MSTR, MARA, RIOT, IBIT]
+    keywords:
+      - bitcoin
+      - crypto
+      - cryptocurrency
+      - stablecoin
+      - digital asset
+      - blockchain
+
+  banks:
+    tickers: [JPM, BAC, WFC, GS, XLF]
+    keywords:
+      - bank
+      - banking
+      - capital requirement
+      - stress test
+      - deposit
+      - lending
+      - credit
+
+  healthcare:
+    tickers: [UNH, PFE, MRK, JNJ, XLV]
+    keywords:
+      - medicare
+      - medicaid
+      - drug price
+      - pharmaceutical
+      - vaccine
+      - healthcare
+      - health care
+
+  china_trade:
+    tickers: [AAPL, TSLA, BABA, JD, FXI, MCHI]
+    keywords:
+      - china
+      - chinese
+      - tariff
+      - tariffs
+      - export restriction
+      - import restriction
+      - trade war

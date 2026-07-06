@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "political-alert-bot"
+version = "0.1.0"
+description = "Telegram alerts for political and government market-moving announcements."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "feedparser==6.0.11",
+  "PyYAML==6.0.2",
+  "requests==2.32.3",
+]
+
+[project.scripts]
+political-alert-bot = "political_alert_bot.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,30 @@
+sources:
+  - id: white_house
+    name: White House
+    url: https://www.whitehouse.gov/briefing-room/feed/
+    importance: 5
+
+  - id: federal_reserve
+    name: Federal Reserve
+    url: https://www.federalreserve.gov/feeds/press_all.xml
+    importance: 5
+
+  - id: sec
+    name: SEC
+    url: https://www.sec.gov/news/pressreleases.rss
+    importance: 4
+
+  - id: treasury
+    name: US Treasury
+    url: https://home.treasury.gov/news/press-releases/rss
+    importance: 4
+
+  - id: ftc
+    name: FTC
+    url: https://www.ftc.gov/news-events/news/press-releases.xml
+    importance: 3
+
+  - id: doj
+    name: DOJ
+    url: https://www.justice.gov/news/rss
+    importance: 3
