@@ -1,12 +1,14 @@
 # Political Alert Bot
 
-A free Telegram alert bot for monitoring public US government announcements and mapping them to potentially affected market sectors/tickers.
+A free Telegram alert bot for monitoring public US politician/government trading disclosures and market-moving public announcements.
 
-This MVP is designed to run on GitHub Actions while your computer is off. It checks public RSS feeds, matches article text against a configurable keyword map, sends Telegram alerts for new matches, and stores a small `data/seen_alerts.json` state file to avoid duplicate messages.
+This MVP is designed to run on GitHub Actions while your computer is off. It stores seen alerts and trade history locally in JSON files committed by the workflow, so future alerts can include historical context such as: "X and Y also bought this stock and appear to still be holding."
 
 ## What It Does Now
 
 - Monitors government/public-policy RSS feeds.
+- Provides a trade-history storage layer for politician buy/sell disclosures.
+- Formats politician trade alerts with person, action, ticker, amount, trade date, disclosure date, and historical context.
 - Matches announcements to sectors and tickers using `config/ticker_keywords.yaml`.
 - Scores each alert from 0-100 based on source importance and keyword strength.
 - Sends Telegram messages when new relevant events appear.
@@ -14,9 +16,34 @@ This MVP is designed to run on GitHub Actions while your computer is off. It che
 
 ## What It Does Not Do Yet
 
-- It does not scrape House/Senate stock trade PDFs yet.
+- It does not scrape House/Senate stock trade PDFs yet. The storage and message format are ready for that parser.
 - It does not place trades.
 - It does not claim politician trades are real-time. Public trade disclosures are often delayed.
+
+## Trade Alert Format
+
+When the House/Senate parser is added, politician trade alerts will look like this:
+
+```text
+NEW POLITICIAN TRADE DISCLOSURE
+
+Person: Dan Senator
+Office: Senate
+Party/State: I-VT
+Action: BUY
+Ticker: NVDA
+Company: NVIDIA Corp.
+Amount: $50,001-$100,000
+Trade date: 2026-06-20
+Disclosure date: 2026-07-06
+Disclosure delay: 16 days
+
+Historical context: Carol Representative also bought NVDA and appears to still be holding based on latest stored disclosures.
+
+https://example.com/source-filing
+```
+
+Holding status is based only on latest stored disclosures. If someone later discloses a sale for the same ticker, they stop showing as an apparent holder.
 
 ## Local Setup
 
@@ -71,11 +98,11 @@ The workflow in `.github/workflows/monitor.yml` runs every 30 minutes and can al
 - `config/sources.yaml`: RSS feeds to monitor.
 - `config/ticker_keywords.yaml`: sector keywords and ticker mappings.
 - `data/seen_alerts.json`: dedupe state committed by the workflow.
+- `data/trade_history.json`: stored politician trades used for historical comments.
 
 ## Roadmap
 
 1. Add House/Senate disclosure ingestion.
-2. Add price movement since announcement using free price data.
-3. Add politician/company/entity database.
-4. Add confidence scoring for delayed disclosures.
-5. Add weekly summary reports.
+2. Add politician/company/entity database.
+3. Add confidence scoring for delayed disclosures.
+4. Add weekly summary reports.
