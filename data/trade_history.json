@@ -59723,6 +59723,62 @@
       "trade_date": "2026-06-05",
       "disclosure_date": "2026-07-02",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034906.pdf"
+    },
+    {
+      "id": "trade:4dc98c420b4ee7ca3d5369d0",
+      "person": "Lloyd Doggett",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "PPG",
+      "company": "PPG Industries, Inc. Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-12",
+      "disclosure_date": "2026-07-06",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+    },
+    {
+      "id": "trade:66c9abe2784d8abf425bd31b",
+      "person": "Lloyd Doggett",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-09",
+      "disclosure_date": "2026-07-06",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+    },
+    {
+      "id": "trade:a5a549db678e07c50223dfbe",
+      "person": "Lloyd Doggett",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "IBM",
+      "company": "International Business Machines Corporation Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-10",
+      "disclosure_date": "2026-07-06",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+    },
+    {
+      "id": "trade:b8928829f090e633de091607",
+      "person": "Lloyd Doggett",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "HD",
+      "company": "Home Depot, Inc.",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-18",
+      "disclosure_date": "2026-07-06",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
     }
   ]
 }
