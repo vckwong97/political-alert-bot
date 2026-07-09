@@ -59779,6 +59779,62 @@
       "trade_date": "2026-06-18",
       "disclosure_date": "2026-07-06",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+    },
+    {
+      "id": "trade:35289b17606ea32b2a09bed0",
+      "person": "Josh Gottheimer",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "NVZMY",
+      "company": "NOVONESIS B UNSP/ADR",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-01",
+      "disclosure_date": "2026-07-07",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034938.pdf"
+    },
+    {
+      "id": "trade:625dfdbbe29a12d9e89a116c",
+      "person": "Josh Gottheimer",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "BKNG",
+      "company": "Booking Holdings Inc. - Common Stock F\u0000\u0000\u0000\u0000\u0000 S\u0000\u0000\u0000\u0000\u0000: New S\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 O\u0000: Morgan Stanley - Select UMA Account # 1",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-01",
+      "disclosure_date": "2026-07-07",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034938.pdf"
+    },
+    {
+      "id": "trade:a89c5b643393f294fb051ff8",
+      "person": "Josh Gottheimer",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "BABA",
+      "company": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-01",
+      "disclosure_date": "2026-07-07",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034938.pdf"
+    },
+    {
+      "id": "trade:e05d0423cc651c0462dea179",
+      "person": "Josh Gottheimer",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "ADC",
+      "company": "Agree Realty Corporation Common Stock F\u0000\u0000\u0000\u0000\u0000 S\u0000\u0000\u0000\u0000\u0000: New S\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 O\u0000: Morgan Stanley - Select UMA Account # 1",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-01",
+      "disclosure_date": "2026-07-07",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034938.pdf"
     }
   ]
 }
