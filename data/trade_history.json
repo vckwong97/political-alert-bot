@@ -59835,6 +59835,62 @@
       "trade_date": "2026-06-01",
       "disclosure_date": "2026-07-07",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034938.pdf"
+    },
+    {
+      "id": "trade:1f8d5545ca1a2db0f11b95ff",
+      "person": "Tim Moore",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "DASH",
+      "company": "DoorDash, Inc. - Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-09",
+      "disclosure_date": "2026-07-08",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034952.pdf"
+    },
+    {
+      "id": "trade:c7c8b4d010e1e7cc6ce8cadc",
+      "person": "Richard Dean Dr McCormick",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "ICE",
+      "company": "Intercontinental Exchange Inc. Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-12",
+      "disclosure_date": "2026-07-08",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034954.pdf"
+    },
+    {
+      "id": "trade:d7e1d710e5bbc4ace4b79f5e",
+      "person": "Richard Dean Dr McCormick",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "ABT",
+      "company": "Abbott Laboratories Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-12",
+      "disclosure_date": "2026-07-08",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034954.pdf"
+    },
+    {
+      "id": "trade:ef3ed0d09a4eb71be69b19b5",
+      "person": "Richard Dean Dr McCormick",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "LHX",
+      "company": "L3Harris Technologies, Inc. Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-06-12",
+      "disclosure_date": "2026-07-08",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034954.pdf"
     }
   ]
 }
