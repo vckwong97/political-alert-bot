@@ -59891,6 +59891,20 @@
       "trade_date": "2026-06-12",
       "disclosure_date": "2026-07-08",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034954.pdf"
+    },
+    {
+      "id": "trade:a045c7a6372ed2b22e34b86d",
+      "person": "Debbie Wasserman Schultz",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "ICHR",
+      "company": "Ichor Holdings - Ordinary Shares",
+      "amount": "$2,722.50",
+      "trade_date": "2026-06-17",
+      "disclosure_date": "2026-07-14",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034999.pdf"
     }
   ]
 }
