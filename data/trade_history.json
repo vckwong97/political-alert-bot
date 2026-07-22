@@ -59905,6 +59905,48 @@
       "trade_date": "2026-06-17",
       "disclosure_date": "2026-07-14",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034999.pdf"
+    },
+    {
+      "id": "trade:2647947912718c4d321a9cb8",
+      "person": "James A. Himes",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "BAC",
+      "company": "Bank of America Corporation Common Stock F\u0000\u0000\u0000\u0000\u0000 S\u0000\u0000\u0000\u0000\u0000: New S\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 O\u0000: Fidelity Brokerage",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-07-20",
+      "disclosure_date": "2026-07-20",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035047.pdf"
+    },
+    {
+      "id": "trade:2c300cc4235f9ab7217895bd",
+      "person": "James A. Himes",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "XOM",
+      "company": "ExxonMobil Holdings Corporation Common Stock",
+      "amount": "$15,001 - $50,000",
+      "trade_date": "2026-07-20",
+      "disclosure_date": "2026-07-20",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035047.pdf"
+    },
+    {
+      "id": "trade:a07dfeb8822c45f1cfaf65f1",
+      "person": "James A. Himes",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "HD",
+      "company": "Home Depot, Inc.",
+      "amount": "$15,001 - $50,000",
+      "trade_date": "2026-07-20",
+      "disclosure_date": "2026-07-20",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035047.pdf"
     }
   ]
 }
