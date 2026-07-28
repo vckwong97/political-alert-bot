@@ -59947,6 +59947,20 @@
       "trade_date": "2026-07-20",
       "disclosure_date": "2026-07-20",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035047.pdf"
+    },
+    {
+      "id": "trade:43b0a0ce0263822fa0533d4c",
+      "person": "Pete Sessions",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "ARCC",
+      "company": "Ares Capital Corporation - Closed End Fund F\u0000\u0000\u0000\u0000\u0000 S\u0000\u0000\u0000\u0000\u0000: New S\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 O\u0000: IRA One",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-07-24",
+      "disclosure_date": "2026-07-24",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035068.pdf"
     }
   ]
 }
