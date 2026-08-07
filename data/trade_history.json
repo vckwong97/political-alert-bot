@@ -60381,6 +60381,20 @@
       "trade_date": "2026-07-24",
       "disclosure_date": "2026-08-01",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf"
+    },
+    {
+      "id": "trade:f44aaabc72779ab3f2b74dc0",
+      "person": "Lloyd Doggett",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "KO",
+      "company": "Coca-Cola Company",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-07-01",
+      "disclosure_date": "2026-08-05",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf"
     }
   ]
 }
