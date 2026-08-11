@@ -60493,6 +60493,20 @@
       "trade_date": "2026-07-24",
       "disclosure_date": "2026-08-06",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035146.pdf"
+    },
+    {
+      "id": "trade:3747fffd0ab7ab185491b21f",
+      "person": "Christian D. Menefee",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "PINS",
+      "company": "Pinterest, Inc. Class A Common Stock",
+      "amount": "$15,001",
+      "trade_date": "2026-08-07",
+      "disclosure_date": "2026-08-07",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035157.pdf"
     }
   ]
 }
