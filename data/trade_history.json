@@ -60507,6 +60507,48 @@
       "trade_date": "2026-08-07",
       "disclosure_date": "2026-08-07",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035157.pdf"
+    },
+    {
+      "id": "trade:0674d39813f323e13794dfdc",
+      "person": "Mike Kelly",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "ABT",
+      "company": "Abbott Laboratories Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-07-17",
+      "disclosure_date": "2026-08-12",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf"
+    },
+    {
+      "id": "trade:3f512f3f0ee8dc21441f7680",
+      "person": "Mike Kelly",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "PEP",
+      "company": "Pepsico, Inc.",
+      "amount": "$15,001 - $50,000",
+      "trade_date": "2026-07-17",
+      "disclosure_date": "2026-08-12",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf"
+    },
+    {
+      "id": "trade:95458f8a82ed91aaae30b46c",
+      "person": "Mike Kelly",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "DIS",
+      "company": "Walt Disney Company",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-07-17",
+      "disclosure_date": "2026-08-12",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf"
     }
   ]
 }
