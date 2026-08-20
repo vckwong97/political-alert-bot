@@ -60549,6 +60549,62 @@
       "trade_date": "2026-07-17",
       "disclosure_date": "2026-08-12",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf"
+    },
+    {
+      "id": "trade:19595b1cdbda8e94fb3297de",
+      "person": "Richard W. Allen",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "ABT",
+      "company": "Abbott Laboratories Common Stock",
+      "amount": "$15,001",
+      "trade_date": "2026-07-14",
+      "disclosure_date": "2026-08-17",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035260.pdf"
+    },
+    {
+      "id": "trade:1e2e0b2cfb5901e9bfde31ba",
+      "person": "Richard W. Allen",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices, Inc.",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-07-14",
+      "disclosure_date": "2026-08-17",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035260.pdf"
+    },
+    {
+      "id": "trade:911b3e7cbb8543d529d0738a",
+      "person": "Richard W. Allen",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "AVGO",
+      "company": "Broadcom Inc. - Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-07-14",
+      "disclosure_date": "2026-08-17",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035260.pdf"
+    },
+    {
+      "id": "trade:b7f3c0aa9e1d3c5fc0ef303a",
+      "person": "Ed Case",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "AAPL",
+      "company": "Apple Inc. - Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-08-13",
+      "disclosure_date": "2026-08-18",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035275.pdf"
     }
   ]
 }
