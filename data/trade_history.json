@@ -60773,6 +60773,20 @@
       "trade_date": "2026-09-14",
       "disclosure_date": "2026-09-18",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf"
+    },
+    {
+      "id": "trade:e516a4368a788291de5beb10",
+      "person": "Pete Sessions",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "AAPL",
+      "company": "Apple Inc. - Common Stock",
+      "amount": "$100,001",
+      "trade_date": "2026-09-22",
+      "disclosure_date": "2026-09-22",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf"
     }
   ]
 }
