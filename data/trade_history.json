@@ -60787,6 +60787,62 @@
       "trade_date": "2026-09-22",
       "disclosure_date": "2026-09-22",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf"
+    },
+    {
+      "id": "trade:66b6d1155509938ce3b6dbb8",
+      "person": "David J. Taylor",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "HD",
+      "company": "Home Depot, Inc.",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-09-22",
+      "disclosure_date": "2026-10-01",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf"
+    },
+    {
+      "id": "trade:844411be9b0eda2fb292684a",
+      "person": "David J. Taylor",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "K",
+      "company": "Marathon Petroleum Corporation Common Stock (MPC) F\u0000\u0000\u0000\u0000\u0000 S\u0000\u0000\u0000\u0000\u0000: New S\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 O\u0000: David Taylor Trust > Sardinia Ready Mix 401 - Dave",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-09-22",
+      "disclosure_date": "2026-10-01",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf"
+    },
+    {
+      "id": "trade:ce825845c3d053c43e04392a",
+      "person": "David J. Taylor",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "AMGN",
+      "company": "Amgen Inc. - Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-09-22",
+      "disclosure_date": "2026-10-01",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf"
+    },
+    {
+      "id": "trade:d89a4dcc8bc057e6daae9884",
+      "person": "David J. Taylor",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "MPC",
+      "company": "Marathon Petroleum Corporation Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-09-22",
+      "disclosure_date": "2026-10-01",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf"
     }
   ]
 }
