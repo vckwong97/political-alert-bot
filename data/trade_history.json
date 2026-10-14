@@ -60913,6 +60913,62 @@
       "trade_date": "2026-09-15",
       "disclosure_date": "2026-10-06",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035590.pdf"
+    },
+    {
+      "id": "trade:7cfc35e71f0abcaeb4318ef3",
+      "person": "Rick Larsen",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "WSM",
+      "company": "Williams-Sonoma, Inc. Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-10-08",
+      "disclosure_date": "2026-10-12",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
+    },
+    {
+      "id": "trade:827d525dc763b07d022fbcaa",
+      "person": "Rick Larsen",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "ADI",
+      "company": "Analog Devices, Inc. - Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-10-08",
+      "disclosure_date": "2026-10-12",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
+    },
+    {
+      "id": "trade:a97f965287597f873eebe149",
+      "person": "Rick Larsen",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "FDX",
+      "company": "FedEx Corporation Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-10-08",
+      "disclosure_date": "2026-10-12",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
+    },
+    {
+      "id": "trade:dee221ed7222c1fe55c30f1b",
+      "person": "Rick Larsen",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "HD",
+      "company": "Home Depot, Inc.",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-10-08",
+      "disclosure_date": "2026-10-12",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
     }
   ]
 }
