@@ -60969,6 +60969,34 @@
       "trade_date": "2026-10-08",
       "disclosure_date": "2026-10-12",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
+    },
+    {
+      "id": "trade:60c6332e09764d500082725b",
+      "person": "Richard W. Allen",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "AZO",
+      "company": "AutoZone, Inc. Common Stock",
+      "amount": "$15,001",
+      "trade_date": "2026-09-22",
+      "disclosure_date": "2026-10-14",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035648.pdf"
+    },
+    {
+      "id": "trade:bd60a65ccf85274f7c5653f2",
+      "person": "Richard W. Allen",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "COST",
+      "company": "Costco Wholesale Corporation - Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-09-18",
+      "disclosure_date": "2026-10-14",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035648.pdf"
     }
   ]
 }
