@@ -60997,6 +60997,62 @@
       "trade_date": "2026-09-18",
       "disclosure_date": "2026-10-14",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035648.pdf"
+    },
+    {
+      "id": "trade:4b91f523ce71bd323567f942",
+      "person": "David J. Taylor",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "T",
+      "company": "AT&T Inc.",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-10-09",
+      "disclosure_date": "2026-10-15",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035660.pdf"
+    },
+    {
+      "id": "trade:58473023a69f09685900bbe0",
+      "person": "David J. Taylor",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "RPM",
+      "company": "RPM International Inc. Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-10-09",
+      "disclosure_date": "2026-10-15",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035660.pdf"
+    },
+    {
+      "id": "trade:8c39008c5ff2dbf9181379fe",
+      "person": "David J. Taylor",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "FITB",
+      "company": "Fifth Third Bancorp - Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-10-09",
+      "disclosure_date": "2026-10-15",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035660.pdf"
+    },
+    {
+      "id": "trade:bafc4780073f9b06308679fd",
+      "person": "David J. Taylor",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "PG",
+      "company": "Procter & Gamble Company",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-10-12",
+      "disclosure_date": "2026-10-15",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035660.pdf"
     }
   ]
 }
