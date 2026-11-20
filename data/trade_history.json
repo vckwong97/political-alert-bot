@@ -62005,6 +62005,20 @@
       "trade_date": "2026-11-03",
       "disclosure_date": "2026-11-12",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+    },
+    {
+      "id": "trade:3be87d67ffceee911ba53cdd",
+      "person": "Steve Cohen",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Sell",
+      "ticker": "WBD",
+      "company": "Warner Bros. Discovery, Inc. - Series A Common Stock F\u0000\u0000\u0000\u0000\u0000 S\u0000\u0000\u0000\u0000\u0000: New S\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 O\u0000: Stephens Advantage Account",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-10-07",
+      "disclosure_date": "2026-11-16",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036849.pdf"
     }
   ]
 }
