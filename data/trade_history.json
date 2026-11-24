@@ -62019,6 +62019,20 @@
       "trade_date": "2026-10-07",
       "disclosure_date": "2026-11-16",
       "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036849.pdf"
+    },
+    {
+      "id": "trade:aeeedad1077af9e1c929f060",
+      "person": "Ed Case",
+      "office": "House",
+      "party": "",
+      "state": "",
+      "action": "Buy",
+      "ticker": "AAPL",
+      "company": "Apple Inc. - Common Stock",
+      "amount": "$1,001 - $15,000",
+      "trade_date": "2026-11-16",
+      "disclosure_date": "2026-11-21",
+      "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036891.pdf"
     }
   ]
 }
